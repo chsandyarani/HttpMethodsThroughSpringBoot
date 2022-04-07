@@ -2,7 +2,9 @@ package com.example.Sample;
 public class Employee {
     String id;
     String name;
-//generating getters and setters
+
+
+    //generating getters and setters
     public String getId() {
         return id;
     }
@@ -21,10 +23,10 @@ public class Employee {
         this.id = id;
     }
     //generating constructor
-    public Employee(String id, String name) {
-        this.id = id;
-        this.name = name;
-    }
+//    public Employee(String id, String name) {
+//        this.id = id;
+//        this.name = name;
+//    }
 
     //generating to-string
     @Override
